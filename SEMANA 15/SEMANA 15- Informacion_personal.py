@@ -13,6 +13,10 @@ print(f"Ciudad original: {informacion_personal['ciudad']}")
 informacion_personal["ciudad"] = "Guayaquil"  # Cambiamos la ciudad de 'Quito' a 'Guayaquil'.
 print(f"Ciudad modificada: {informacion_personal['ciudad']}")  # Mostramos la nueva ciudad.
 
+# Agregamos una nueva clave 'especializacion_profesional', para especificar el área de trabajo dentro de su profesión.
+# Este es un ejemplo de cómo agregar más detalle sobre el trabajo de una persona.
+informacion_personal["especializacion_profesional"] = "Ingeniería Civil"  # Especificamos el campo en el que trabaja.
+
 # A continuación, verificamos si existe una clave llamada 'telefono' en nuestro diccionario.
 # Si la clave no está presente, agregamos un número de teléfono ficticio, lo que es muy común en la vida real cuando necesitamos actualizar datos.
 if "telefono" not in informacion_personal:
@@ -24,6 +28,6 @@ if "edad" in informacion_personal:
     del informacion_personal["edad"]  # Eliminamos la clave 'edad' del diccionario.
 
 # Finalmente, imprimimos el diccionario actualizado para ver cómo ha quedado después de todas las modificaciones que hemos hecho.
-# Ahora podemos ver el resultado de las operaciones: la ciudad ha cambiado, se ha agregado el teléfono y se ha eliminado la edad.
+# Ahora podemos ver el resultado de las operaciones: la ciudad ha cambiado, se ha agregado el teléfono, una especialización profesional, y se ha eliminado la edad.
 print("Diccionario final:")
 print(informacion_personal)
