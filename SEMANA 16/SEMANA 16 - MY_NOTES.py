@@ -5,6 +5,7 @@ with open('my_notes.txt', 'w') as archivo:
     archivo.write("MI NOMBRE ES MARIANA CASCO, ME GUSTA LA NATACIÓN.\n")
     archivo.write("ME GUSTAN LOS DEPORTES.\n")
     archivo.write("TRABAJO EN RIOBAMBA.\n")
+    archivo.write("ME GUSTA VER PELICULAS EN MI TIEMPO LIBRE.\n")
 
 # Lectura de Archivo de Texto línea por línea utilizando readline()
 # Abrimos el archivo en modo de lectura ('r')
